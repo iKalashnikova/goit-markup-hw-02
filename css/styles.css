@@ -1,0 +1,95 @@
+/*  цвет заголовков #212121 */
+/* цвет текста #757575 */
+/* доп цвет #2196F3 */
+/* цвет лого #2196F3 #000000 */
+/* цвет текста героя #FFFFFF */
+/* фон героя и футера #2F303A */
+/* фон нашей команды F5F4FA */
+
+:root {
+  --text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-background: #2f303a;
+  --extra-backgraund: #f5f4fa;
+  --primary-background: #ffffff;
+}
+
+.page {
+  background-color: var(--primary-background);
+  color: var(--title-text-color);
+}
+/* логотип */
+.logo {
+  color: #000000;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+/* контакти */
+.contact-link {
+  color: #212121;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+/* списки */
+.list {
+  list-style: none;
+  color: #212121;
+}
+
+/* site nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* hero */
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* кнопка */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-background);
+}
+.button:hover, .button:focus{
+    color: #ffffff;
+    background-color: var(--accent-color);
+} 
+/* section */
+.section,
+.section-title {
+  color: var(--title-text-color);
+}
+
+.comand-section {
+  background-color: var(--extra-backgraund);
+}
+
+.comand-title {
+  color: var(--title-text-color);
+}
+
+.comand-text,
+.section-text {
+  color: var(--text-color);
+}
